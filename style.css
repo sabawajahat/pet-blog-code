@@ -1,0 +1,262 @@
+
+*
+{
+  margin: 0;  
+  padding: 0;
+}
+
+body
+{
+    font-family: sans-serif;
+}
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar
+{
+    background: rgb(254,248,241);
+    background: linear-gradient(90deg, rgba(254,248,241,1) 0%, rgba(205,124,42,1) 25%, rgba(62,42,5,1) 100%);
+padding: 0 !important; 
+}
+.navbar-nav :hover {
+    background-color:rgba(205,124,42,1)  ;
+    border: none;
+    border-radius: 20px;
+}
+
+
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    color: #fff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+
+
+.fa-bars
+{
+    color: #fff;
+    font-size: 30px !important;
+}
+.avbar-toggler
+{
+    outline: none !important;
+}
+/* BANNER */
+#banner
+{
+    background-image:linear-gradient(90deg, rgba(254,248,241,1) 0%, rgba(205,124,42,1) 25%, rgb(62, 42, 5) 100%);
+    color: #fff ;
+    padding-top: 2%;
+}
+.promo-tittle{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 60px;
+}
+.waveimg
+{
+    width: 100% !important; 
+}
+/* pet services */
+#pet
+{
+    padding: 15px 0;
+}
+.petimg
+{
+    width: 100px !important;
+    height: 100px;
+    margin-top: 20px !important;
+    
+}
+
+
+.pet
+{
+    padding: 20px;
+}
+.pet h4{
+    padding: 5px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    color: rgb(116, 79, 12);
+}
+.tittle::before {
+content: '';
+background-color: rgb(116, 79, 12);
+height: 5px;
+width: 150px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+transform: translateY(63px);
+
+}
+.tittle::after {
+    content: '';
+    background-color: rgb(116, 79, 12);
+    height: 10px;
+    width: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);}
+
+    #pet .btn-primary{
+
+        box-shadow: none;
+        padding: 8px 25px;
+        border: none;
+        border-radius: 20px;
+        background-image:linear-gradient(90deg, rgba(254,248,241,1) 0%, rgba(205,124,42,1) 25%, rgb(62, 42, 5) 100%) !important;
+ 
+    }
+
+    /* 2nd page dog */
+    #dogpic{
+        
+        padding-top: 15px;
+        padding-bottom: 50px;
+    }
+    #catpic{
+        
+        padding-top: 15px;
+        padding-bottom: 50px;
+    }
+
+
+    /* pet trends */
+
+    .pet-trends{
+        margin-bottom: 100px !important;
+        
+    }
+.media-body h5 {
+    color:  rgb(97, 67, 12) ;
+
+}
+
+#read-more .btn-primary{
+
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image:linear-gradient(90deg, rgba(254,248,241,1) 0%, rgba(205,124,42,1) 25%, rgb(62, 42, 5) 100%) !important;
+    margin-left: 100px ;
+    margin-top: 40px;
+    
+
+}
+#walkdog h2 {
+    padding: 5px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    color: rgb(116, 79, 12);
+}
+.blogstyle {
+    width: 70%;
+    margin-left: 15%;
+    font-family: sans-serif !important;
+
+}
+#catpic .btn-primary {
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image:linear-gradient(90deg, rgba(254,248,241,1) 0%, rgba(205,124,42,1) 25%, rgb(62, 42, 5) 100%) !important;
+    margin-top: 20px;
+
+}
+#dogpic .btn-primary {
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image:linear-gradient(90deg, rgba(254,248,241,1) 0%, rgba(205,124,42,1) 25%, rgb(62, 42, 5) 100%) !important;
+    margin-top: 20px;
+
+}
+
+/* contact us */
+.social-icons img {
+    width: 60px;
+    transition: 0.5s;
+    margin-bottom: 80px;
+
+}
+
+.social-icons a:hover img{
+    transform: translateY(-15px);
+}
+
+/* footer */
+#footer{
+    background-image:linear-gradient(90deg, rgba(254,248,241,1) 0%, rgba(205,124,42,1) 25%, rgb(62, 42, 5) 100%) !important;
+    color: #fff;
+
+
+}
+
+.footer-img {
+    width: 100%;
+    
+}
+
+
+.footer-box img {
+    width: 80px;
+    margin-bottom: 20px;
+    
+
+}
+.fbox {
+    padding-top: 40px;
+    padding-bottom: 0px;
+    margin: 20px;
+}
+.fbox .fa {
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    background-image:linear-gradient(90deg, rgba(254,248,241,1) 0%, rgba(205,124,42,1) 25%, rgb(62, 42, 5) 100%) !important;
+}
+.footer-box .form-control {
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 25px;
+    max-width: 200px;
+    
+
+}
+.footer-box .btn-primary{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 35px;
+    background-image:linear-gradient(90deg, rgba(254,248,241,1) 0%, rgba(205,124,42,1) 25%, rgb(62, 42, 5) 100%) !important;
+}
+.hr {
+    background-color: #fff;
+}
+.copyright {
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+    text-align: center;
+}
